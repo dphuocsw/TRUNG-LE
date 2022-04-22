@@ -17,12 +17,14 @@ header {
 .introduce .ava img {
   width: 30%;
   transition: 0.5s;
+  -webkit-box-shadow: -4px 0px 13px 4px rgba(0,0,0,0.73); 
+  box-shadow: -4px 0px 13px 4px rgba(0,0,0,0.73);
 }
-.introduce .ava img:hover
+/* .introduce .ava img:hover
  {
   -webkit-box-shadow: 5px 5px 15px 3px #C7C7C7; 
   box-shadow: 5px 5px 15px 3px #C7C7C7;
-}
+} */
 .introduce .introduce-small {
   display: flex;
   justify-content: center;
