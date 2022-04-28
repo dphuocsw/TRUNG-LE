@@ -183,11 +183,39 @@ footer .list-contact ul a.instagram p:hover {
   }
   .introduce .introduce-small .intro-right p
   {
-    font-size: 18px !important;
+    font-size: 15px !important;
     font-weight: 600;
+    letter-spacing: 0;
   }
   .carousel-inner
   {
      min-height: 100vh;
+  }
+}
+@media (max-width: 540px)
+{
+  .introduce .introduce-small .intro-right p
+
+  {
+    font-size: 15px ;
+    letter-spacing: 0;
+  }
+}
+@media (max-width: 960px)
+{
+  .introduce .introduce-small .intro-right p
+
+  {
+    font-size: 25px ;
+    letter-spacing: 0;
+  }
+}
+@media (max-width: 400px)
+{
+  .introduce .introduce-small .intro-right p
+
+  {
+    font-size: 13px !important;
+    letter-spacing: 0;
   }
 }
